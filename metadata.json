@@ -1,0 +1,6 @@
+{
+  "name": "CINEMATCH — Your Next Obsession",
+  "description": "AI-powered movie recommendation system analyzing cinematic DNA to match personalized films with Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #06070a;
+  color: #f1f5f9;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom cinematic glow classes */
+.glow-violet {
+  box-shadow: 0 0 40px -10px rgba(139, 92, 246, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 40px -10px rgba(6, 182, 212, 0.35);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 40px -10px rgba(236, 72, 153, 0.35);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
+}
+
+/* Film strip edge perforations */
+.film-strip-edge {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 35%, transparent 40%);
+  background-size: 16px 16px;
+  background-repeat: repeat-x;
+}
+
+/* Cinematic grain overlay */
+.cinematic-vignette {
+  background: radial-gradient(circle at 50% 20%, transparent 40%, rgba(6, 7, 10, 0.85) 90%);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #08090e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2230;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333a52;
+}
